@@ -1,0 +1,27 @@
+body {
+    background-image: url("bg.png");
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(252, 68, 68);
+    padding: 15px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    transition: all 0.5s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-shadow: 0 0 15px 5px rgb(248, 93, 93);
+}
