@@ -3,7 +3,11 @@ body {
     text-transform: capitalize;
 }
 
-a {
+::selection {
+    background-color: orange;
+}
+
+.hmbtn {
     text-decoration: none;
     color: #fff;
     font-size: 25px;
@@ -18,10 +22,43 @@ a {
     transition: all 0.5s;
 }
 
-a:hover {
+.hmbtn:hover {
     text-decoration: none;
     color: #fff;
     padding-left: 100px;
     padding-right: 100px;
     box-shadow: 0 0 15px 5px rgb(248, 93, 93);
+}
+
+.bckbtn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 150px;
+    margin-top: -50px;
+    margin-right: 20px;
+    transition: all 0.5s;
+    float: right;
+}
+
+.bckbtn:hover {
+    text-decoration: none;
+    color: #fff;
+    width: 140px;
+    box-shadow: 0 0 15px 5px #3e3d3d;
+}
+
+h3 {
+    font-size: 19px !important;
+}
+
+h3 span {
+    font-weight: bold;
+    font-size: 22px;
 }
