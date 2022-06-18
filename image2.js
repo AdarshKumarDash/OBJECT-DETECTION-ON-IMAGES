@@ -1,7 +1,7 @@
 status = "";
 
 function setup() {
-    canvas = createCanvas(640, 480);
+    canvas = createCanvas(550, 480);
     canvas.center();
     objectDetector = ml5.objectDetector("cocossd", modelloaded);
     document.getElementById("status").innerHTML = "Detecting Objects";
@@ -21,10 +21,10 @@ function gotResult(error, result) {
     }
 }
 
-// function preload() {
-//     img = loadImage("");
-// }
+function preload() {
+    img = loadImage("image2.jpg");
+}
 
-// function draw() {
-//     image(img, 0, 0, 640, 480);
-// }
+function draw() {
+    image(img, 0, 0, 550, 480);
+}

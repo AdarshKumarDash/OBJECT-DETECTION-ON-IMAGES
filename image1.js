@@ -21,10 +21,10 @@ function gotResult(error, result) {
     }
 }
 
-// function preload() {
-//     img = loadImage("");
-// }
+function preload() {
+    img = loadImage("image1.jpg");
+}
 
-// function draw() {
-//     image(img, 0, 0, 640, 480);
-// }
+function draw() {
+    image(img, 0, 0, 640, 480);
+}
