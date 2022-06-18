@@ -8,7 +8,7 @@ function setup() {
 }
 
 function modelloaded() {
-    console.log("Model Loaded In Screen 1");
+    console.log("Model Loaded In Screen 3");
     status = true;
     objectDetector.detect(img, gotResult);
 }
